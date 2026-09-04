@@ -11,7 +11,7 @@ from typer.testing import CliRunner
 
 from fixerr.cli import app
 from fixerr.fingerprint import compute_fingerprint
-from fixerr.store import STATUS_OPEN, STATUS_RESOLVED, Store
+from fixerr.store import STATUS_RESOLVED, Store
 
 runner = CliRunner()
 
@@ -343,7 +343,6 @@ def test_cli_show_displays_occurrences(store):
 
 
 def test_cli_search_displays_seen_badge(store):
-    eid = store.add_error("docker compose up", "port 80 in use")
     store.add_error("docker compose up", "port 80 in use")
 
     result = runner.invoke(app, ["search", "port 80 in use"])

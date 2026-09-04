@@ -14,7 +14,7 @@ from unittest import mock
 import pytest
 
 from fixerr import dashboard as dashboard_module
-from fixerr.dashboard import fixerrDashboard, compute_clusters, kmeans
+from fixerr.dashboard import compute_clusters, fixerrDashboard, kmeans
 from fixerr.store import STATUS_OPEN, STATUS_RESOLVED, STATUS_WONT_FIX, Store
 
 
