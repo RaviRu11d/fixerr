@@ -1,6 +1,6 @@
 [project]
 name = "fixerr"
-version = "0.2.0"
+version = "0.1.0"
 description = "Local-first, provider-agnostic error/fix memory with a semantic search TUI."
 readme = "README.md"
 requires-python = ">=3.9"
