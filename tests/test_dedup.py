@@ -344,6 +344,7 @@ def test_cli_show_displays_occurrences(store):
 
 def test_cli_search_displays_seen_badge(store):
     store.add_error("docker compose up", "port 80 in use")
+    store.add_error("docker compose up", "port 80 in use")
 
     result = runner.invoke(app, ["search", "port 80 in use"])
     assert result.exit_code == 0
