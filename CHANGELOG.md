@@ -2,6 +2,12 @@
 
 All notable changes to this project are documented in this file.
 
+## [0.2.0] - 2026-10-15
+
+### Changed
+- **Metadata & Licensing**: Updated author and package ownership metadata.
+- **Documentation**: Updated repository URLs, license notices, and project links.
+
 ## [0.1.0] - 2026-09-04
 
 ### Added
