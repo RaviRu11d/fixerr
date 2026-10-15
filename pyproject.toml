@@ -5,7 +5,7 @@ description = "Local-first, provider-agnostic error/fix memory with a semantic s
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
-authors = [{ name = "ucmani" }]
+authors = [{ name = "RaviRu11d" }]
 keywords = ["cli", "tui", "error-tracking", "developer-tools", "embeddings", "ollama", "llm"]
 classifiers = [
     "Development Status :: 4 - Beta",

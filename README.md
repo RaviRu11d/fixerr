@@ -228,4 +228,4 @@ Provider tests use mocks — no real API calls or Ollama instance needed.
 
 ## 📜 License
 
-[MIT](LICENSE) © 2024 ucmani
+[MIT](LICENSE) © 2026 RaviRu11d

@@ -39,6 +39,7 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+uv.lock
 
 # =========================
 # Local databases / data
